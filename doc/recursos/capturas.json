@@ -1,0 +1,26 @@
+[
+  {
+    "web": "Xataka",
+    "url": "https://www.xataka.com/",
+    "status": 200,
+    "fecha": "2026-11-05",
+    "viewport": "1440×950",
+    "captura": "xataka_contenido.png"
+  },
+  {
+    "web": "Smashing Magazine",
+    "url": "https://www.smashingmagazine.com/",
+    "status": 200,
+    "fecha": "2026-11-05",
+    "viewport": "1440×1000",
+    "captura": "smashing_portada.png"
+  },
+  {
+    "web": "Ethic",
+    "url": "https://ethic.es/",
+    "status": 200,
+    "fecha": "2026-11-05",
+    "viewport": "1440×950",
+    "captura": "ethic_contenido.png"
+  }
+]

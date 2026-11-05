@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="860" viewBox="0 0 1440 860">
+<title>WF04 · Guardados y deshacer</title>
+<rect x="0" y="0" width="1440" height="860" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="48" y="60" font-family="Arial, Liberation Sans, sans-serif" font-size="36" fill="#244D72" font-weight="700" text-anchor="start">PAUSA</text>
+<text x="260" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="start">Inicio</text>
+<text x="360" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="start">Explorar</text>
+<text x="495" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="start">Índice de la revista</text>
+<text x="750" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#244D72" font-weight="700" text-anchor="start">Guardados</text>
+<line x1="750" y1="72" x2="840" y2="72" stroke="#244D72" stroke-width="3"/>
+<rect x="1100" y="26" width="135" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1167.5" y="53.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Lectura</text>
+<rect x="1255" y="26" width="135" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1322.5" y="53.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">ES / EN v</text>
+<line x1="0" y1="92" x2="1440" y2="92" stroke="#B8C0C8" stroke-width="1"/>
+<text x="48" y="157" font-family="Arial, Liberation Sans, sans-serif" font-size="36" fill="#202833" font-weight="700" text-anchor="start">Mis artículos guardados</text>
+<text x="48" y="197" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#596574" font-weight="400" text-anchor="start">Guardados en este dispositivo · 2 artículos</text>
+<rect x="48" y="236" width="650" height="330" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="63" y="251" width="620" height="110" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="63" y1="251" x2="683" y2="361" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="683" y1="251" x2="63" y2="361" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="278.0" y="291.0" width="190" height="30" rx="5" fill="#F1F3F5" stroke="none" stroke-width="1"/>
+<text x="373.0" y="312.0" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="middle">Imagen del artículo</text>
+<text x="68" y="391" font-family="Arial, Liberation Sans, sans-serif" font-size="15" fill="#244D72" font-weight="700" text-anchor="start">SOCIEDAD</text>
+<text x="68" y="424" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#202833" font-weight="700" text-anchor="start">La ciudad también se puede leer despacio</text>
+<text x="68" y="503" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#596574" font-weight="400" text-anchor="start">6 min · 1200 palabras</text>
+<rect x="68" y="519" width="105" height="32" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="120.5" y="540.6" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#202833" font-weight="400" text-anchor="middle">Leer</text>
+<rect x="538" y="519" width="140" height="32" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="608.0" y="540.6" font-family="DejaVu Sans" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">✓ Guardado</text>
+<rect x="742" y="236" width="650" height="330" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="757" y="251" width="620" height="110" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="757" y1="251" x2="1377" y2="361" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="1377" y1="251" x2="757" y2="361" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="972.0" y="291.0" width="190" height="30" rx="5" fill="#F1F3F5" stroke="none" stroke-width="1"/>
+<text x="1067.0" y="312.0" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="middle">Imagen del artículo</text>
+<text x="762" y="391" font-family="Arial, Liberation Sans, sans-serif" font-size="15" fill="#244D72" font-weight="700" text-anchor="start">CULTURA</text>
+<text x="762" y="424" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#202833" font-weight="700" text-anchor="start">Lo que cuenta un museo de barrio</text>
+<text x="762" y="503" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#596574" font-weight="400" text-anchor="start">6 min · 1200 palabras</text>
+<rect x="762" y="519" width="105" height="32" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="814.5" y="540.6" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#202833" font-weight="400" text-anchor="middle">Leer</text>
+<rect x="1232" y="519" width="140" height="32" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="1302.0" y="540.6" font-family="DejaVu Sans" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">✓ Guardado</text>
+<rect x="48" y="610" width="1344" height="90" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="2"/>
+<text x="72" y="650" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#202833" font-weight="700" text-anchor="start">Artículo eliminado de Guardados.</text>
+<text x="72" y="680" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#596574" font-weight="400" text-anchor="start">Puedes recuperarlo sin repetir la búsqueda.</text>
+<rect x="1180" y="633" width="180" height="44" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="1270.0" y="660.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle">Deshacer</text>
+<text x="48" y="755" font-family="DejaVu Sans" font-size="19" fill="#596574" font-weight="400" text-anchor="start">Al pulsar «✓ Guardado», se elimina el artículo y aparece este aviso.</text>
+<line x1="48" y1="798" x2="1392" y2="798" stroke="#B8C0C8" stroke-width="1"/>
+<text x="48" y="828" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">PAUSA · Cultura, ciencia y vida cotidiana</text>
+<text x="1120" y="828" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#244D72" font-weight="400" text-anchor="start">Ayuda · Accesibilidad</text>
+</svg>

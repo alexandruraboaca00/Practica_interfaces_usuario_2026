@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" viewBox="0 0 1440 800">
+<title>Diagrama de estructura del sitio Pausa</title>
+<rect x="0" y="0" width="1440" height="800" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="40" y="52" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#202833" font-weight="700" text-anchor="start">Estructura del sitio</text>
+<rect x="570" y="92" width="300" height="80" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="720" y="142" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#FFFFFF" font-weight="700" text-anchor="middle">Pausa</text>
+<polyline points="720,172 720,205 165,205" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="720,205 1285,205" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="165,205 165,240" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="159,230 165,240 171,230" fill="none" stroke="#244D72" stroke-width="2"/>
+<rect x="45" y="240" width="240" height="158" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="165" y="282" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Inicio</text>
+<text x="165" y="327" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Destacado</text>
+<text x="165" y="357" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Últimos artículos</text>
+<polyline points="445,205 445,240" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="439,230 445,240 451,230" fill="none" stroke="#244D72" stroke-width="2"/>
+<rect x="325" y="240" width="240" height="158" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="445" y="282" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Explorar</text>
+<text x="445" y="327" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Categorías y etiquetas</text>
+<text x="445" y="357" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Búsqueda y resultados</text>
+<polyline points="725,205 725,240" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="719,230 725,240 731,230" fill="none" stroke="#244D72" stroke-width="2"/>
+<rect x="605" y="240" width="240" height="158" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="725" y="282" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Índice de la revista</text>
+<text x="725" y="327" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Listado automático</text>
+<text x="725" y="357" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Enlace a cada artículo</text>
+<polyline points="1005,205 1005,240" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="999,230 1005,240 1011,230" fill="none" stroke="#244D72" stroke-width="2"/>
+<rect x="885" y="240" width="240" height="158" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1005" y="282" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Guardados</text>
+<text x="1005" y="327" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Lista de favoritos</text>
+<text x="1005" y="357" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Estado vacío</text>
+<polyline points="1285,205 1285,240" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="1279,230 1285,240 1291,230" fill="none" stroke="#244D72" stroke-width="2"/>
+<rect x="1165" y="240" width="240" height="158" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1285" y="282" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Ayuda</text>
+<text x="1285" y="327" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Cómo guardar y leer</text>
+<text x="1285" y="357" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Accesibilidad</text>
+<polyline points="165,398 165,440 650,440" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="445,398 445,440 650,440" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="725,398 725,440 650,440" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="1005,398 1005,440 650,440" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="650,440 650,480" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="644,470 650,480 656,470" fill="none" stroke="#244D72" stroke-width="2"/>
+<rect x="350" y="480" width="600" height="160" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="2"/>
+<text x="650" y="523" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#244D72" font-weight="700" text-anchor="middle">Artículo</text>
+<text x="650" y="564" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="middle">Texto · Autor · Etiquetas · Relacionados</text>
+<text x="650" y="600" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#202833" font-weight="400" text-anchor="middle">Tiempo · Progreso · Guardar · Comentarios</text>
+<rect x="40" y="690" width="1360" height="74" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="62" y="720" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#202833" font-weight="400" text-anchor="start">Controles globales: idioma ES/EN y lectura (tema y tamaño). No son páginas independientes.</text>
+<text x="62" y="750" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#596574" font-weight="400" text-anchor="start">Un mismo artículo se abre desde Inicio, Explorar, Índice o Guardados.</text>
+</svg>
