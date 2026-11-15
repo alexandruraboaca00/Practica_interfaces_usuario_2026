@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+  <title>WF15 · Comment validation · Siobhán</title>
+  <rect x="0" y="0" width="1440" height="1000" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+  <text x="40" y="60" fill="#244D72" font-size="32" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">PAUSA</text>
+  <text x="40" y="118" fill="#202833" font-size="32" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">Comments</text>
+  <rect x="1140" y="30" width="240" height="48" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+  <text x="1260.0" y="59.78" fill="#202833" font-size="17" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="middle">Back to article</text>
+  <text x="40" y="175" fill="#202833" font-size="20" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">Name or alias *</text>
+  <rect x="40" y="194" width="950" height="54" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+  <text x="58" y="229" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">Siobhán</text>
+  <text x="40" y="300" fill="#202833" font-size="20" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">Comment *</text>
+  <text x="40" y="334" fill="#596574" font-size="18" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">Required. Maximum 500 characters.</text>
+  <rect x="40" y="356" width="950" height="170" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+  <text x="40" y="565" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">! Write a comment before posting.</text>
+  <text x="910" y="565" fill="#202833" font-size="18" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">0/500</text>
+  <rect x="40" y="609" width="300" height="48" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+  <text x="190.0" y="638.78" fill="#FFFFFF" font-size="17" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="middle">Post comment</text>
+  <text x="40" y="718" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">Your alias is kept while you correct the comment.</text>
+  <text x="40" y="905" fill="#596574" font-size="20" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">Interface: English · Article and user comments may remain in Spanish.</text>
+</svg>

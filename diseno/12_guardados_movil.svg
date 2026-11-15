@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="880" viewBox="0 0 390 880">
+  <title>WF12 · Guardados móvil · Laura</title>
+  <rect x="0" y="0" width="390" height="880" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+  <text x="18" y="51" fill="#244D72" font-size="28" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">PAUSA</text>
+  <rect x="213" y="17" width="72" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+  <text x="249.0" y="43.76" fill="#202833" font-size="14" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="middle">ES/EN</text>
+  <rect x="295" y="17" width="77" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+  <text x="333.5" y="44.1" fill="#202833" font-size="15" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="middle">Menú</text>
+  <text x="18" y="110" fill="#202833" font-size="29" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">Mis guardados</text>
+  <text x="18" y="148" fill="#596574" font-size="17" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">En este dispositivo · 1 artículo</text>
+  <rect x="18" y="180" width="354" height="300" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+  <text x="34" y="224" fill="#202833" font-size="23" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">La ciudad también se</text>
+  <text x="34" y="258" fill="#202833" font-size="23" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">puede leer despacio</text>
+  <text x="34" y="307" fill="#202833" font-size="17" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">Sociedad · 6 min · Ana Ruiz</text>
+  <rect x="34" y="344" width="136" height="48" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+  <text x="102.0" y="373.78" fill="#FFFFFF" font-size="17" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="middle">Leer</text>
+  <rect x="184" y="344" width="170" height="48" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+  <text x="269.0" y="373.78" fill="#202833" font-size="17" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="middle">✓ Guardado</text>
+  <text x="18" y="540" fill="#202833" font-size="18" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">Los guardados permanecen en este</text>
+  <text x="18" y="567" fill="#202833" font-size="18" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">dispositivo. Puedes quitarlos y</text>
+  <text x="18" y="594" fill="#202833" font-size="18" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">deshacer la acción.</text>
+  <rect x="18" y="700" width="354" height="48" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+  <text x="195.0" y="729.78" fill="#202833" font-size="17" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="middle">Explorar artículos</text>
+</svg>
