@@ -1,0 +1,83 @@
+[
+  {
+    "web": "Xataka",
+    "tipo": "portada",
+    "url": "https://www.xataka.com/",
+    "status": 200,
+    "fecha": "2026-11-05",
+    "viewport": "1440×1000",
+    "captura": "xataka_portada.png"
+  },
+  {
+    "web": "Xataka",
+    "tipo": "portada_desplazada",
+    "url": "https://www.xataka.com/",
+    "status": 200,
+    "fecha": "2026-11-05",
+    "viewport": "1440×950",
+    "captura": "xataka_contenido.png"
+  },
+  {
+    "web": "Smashing Magazine",
+    "tipo": "portada",
+    "url": "https://www.smashingmagazine.com/",
+    "status": 200,
+    "fecha": "2026-11-05",
+    "viewport": "1440×1000",
+    "captura": "smashing_portada.png"
+  },
+  {
+    "web": "Ethic",
+    "tipo": "portada_con_aviso",
+    "url": "https://ethic.es/",
+    "status": 200,
+    "fecha": "2026-11-05",
+    "viewport": "1440×1000",
+    "captura": "ethic_portada.png"
+  },
+  {
+    "web": "Ethic",
+    "tipo": "portada_contenido",
+    "url": "https://ethic.es/",
+    "status": 200,
+    "fecha": "2026-11-05",
+    "viewport": "1440×950",
+    "captura": "ethic_contenido.png"
+  },
+  {
+    "web": "xataka",
+    "tipo": "articulo",
+    "url": "https://www.xataka.com/empresas-y-economia/amd-va-a-adelantar-a-intel-primera-vez-su-historia",
+    "url_final": "https://www.xataka.com/empresas-y-economia/amd-va-a-adelantar-a-intel-primera-vez-su-historia",
+    "status": 200,
+    "fecha": "2026-11-15",
+    "viewport": "1440×1000",
+    "captura": "xataka_articulo.png",
+    "titulo": "AMD está a las puertas de conseguir algo inédito en la historia de la industria tecnológica: superar a Intel",
+    "metodo": "Chromium con recursos obtenidos mediante HTTPS verificado"
+  },
+  {
+    "web": "smashing",
+    "tipo": "articulo",
+    "url": "https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+    "url_final": "https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+    "status": 200,
+    "fecha": "2026-11-15",
+    "viewport": "1440×1000",
+    "captura": "smashing_articulo.png",
+    "titulo": "Modern CSS Might Make Your Front-End More Complex — Smashing Magazine",
+    "metodo": "Chromium con recursos obtenidos mediante HTTPS verificado"
+  },
+  {
+    "web": "ethic",
+    "tipo": "articulo",
+    "url": "https://ethic.es/psicologia-ambiental",
+    "url_final": "https://ethic.es/psicologia-ambiental",
+    "status": 200,
+    "fecha": "2026-11-15",
+    "viewport": "1440×1000",
+    "captura": "ethic_articulo.png",
+    "titulo": "Psicología ambiental | Ethic",
+    "metodo": "Chromium con recursos obtenidos mediante HTTPS verificado"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "pausa-magazine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Revista digital accesible: proyecto de Interfaces de Usuario UC3M",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check script/core.js && node --check script/data.js && node --check script/app.js && html-validate src/index.html index.html && npm test"
+  },
+  "devDependencies": {
+    "axe-core": "^4.11.0",
+    "html-validate": "^10.5.0",
+    "jsdom": "^27.2.0"
+  }
+}

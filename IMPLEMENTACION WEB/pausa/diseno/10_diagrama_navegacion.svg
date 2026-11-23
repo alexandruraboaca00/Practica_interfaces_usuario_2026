@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1020" viewBox="0 0 1440 1020">
+<title>Diagrama de navegación: búsqueda, lectura, guardados y comentarios</title>
+<rect x="0" y="0" width="1440" height="1020" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="40" y="50" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#202833" font-weight="700" text-anchor="start">Navegación y respuesta de la interfaz</text>
+<rect x="40" y="96" width="235" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="157.5" y="128" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Inicio</text>
+<rect x="365" y="96" width="280" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="505.0" y="128" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Buscar / etiqueta</text>
+<text x="505.0" y="157" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Introducir o elegir</text>
+<rect x="745" y="96" width="280" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="885.0" y="128" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Resultados</text>
+<text x="885.0" y="157" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Abrir una tarjeta</text>
+<rect x="1125" y="96" width="275" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="1262.5" y="128" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Artículo</text>
+<text x="1262.5" y="157" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Leer y personalizar</text>
+<polyline points="275,137 365,137" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="355,131 365,137 355,143" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="645,137 745,137" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="735,131 745,137 735,143" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="1025,137 1125,137" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="1115,131 1125,137 1115,143" fill="none" stroke="#244D72" stroke-width="2"/>
+<rect x="365" y="238" width="280" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="505.0" y="270" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Índice de la revista</text>
+<text x="505.0" y="299" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Elegir un artículo</text>
+<polyline points="158,178 158,279 365,279" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="355,273 365,279 355,285" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="645,279 1262,279 1262,178" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="1256,188 1262,178 1268,188" fill="none" stroke="#244D72" stroke-width="2"/>
+<rect x="745" y="338" width="280" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="885.0" y="370" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">0 resultados</text>
+<text x="885.0" y="399" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Revisar texto / quitar filtros</text>
+<polyline points="885,178 885,338" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="879,328 885,338 891,328" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="745,379 700,379 700,205 505,205 505,178" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="499,188 505,178 511,188" fill="none" stroke="#244D72" stroke-width="2"/>
+<text x="910" y="312" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#596574" font-weight="400" text-anchor="start">Si no hay coincidencias</text>
+<rect x="40" y="510" width="300" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="190.0" y="542" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Artículo</text>
+<text x="190.0" y="571" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Pulsar «+ Guardar»</text>
+<rect x="405" y="510" width="300" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="555.0" y="542" font-family="DejaVu Sans" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">✓ Guardado</text>
+<text x="555.0" y="571" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Aviso y estado del botón</text>
+<rect x="770" y="510" width="300" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="920.0" y="542" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Mis guardados</text>
+<text x="920.0" y="571" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Abrir o quitar artículo</text>
+<rect x="1135" y="510" width="265" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="1267.5" y="542" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Deshacer</text>
+<text x="1267.5" y="571" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Recuperar lo eliminado</text>
+<polyline points="340,551 405,551" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="395,545 405,551 395,557" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="705,551 770,551" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="760,545 770,551 760,557" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="1070,551 1135,551" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="1125,545 1135,551 1125,557" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="920,592 920,637 190,637 190,592" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="184,602 190,592 196,602" fill="none" stroke="#244D72" stroke-width="2"/>
+<text x="504" y="630" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">Abrir artículo guardado</text>
+<polyline points="1267,592 1267,663 1060,663 1060,592" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="1054,602 1060,592 1066,602" fill="none" stroke="#244D72" stroke-width="2"/>
+<rect x="40" y="752" width="265" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="172.5" y="784" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Comentarios</text>
+<text x="172.5" y="813" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Alias + mensaje</text>
+<rect x="390" y="752" width="265" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="522.5" y="784" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Validar</text>
+<text x="522.5" y="813" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Campos / 500 caracteres</text>
+<rect x="740" y="752" width="265" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="872.5" y="784" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Error en campo</text>
+<text x="872.5" y="813" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Conservar y corregir</text>
+<rect x="1090" y="752" width="310" height="82" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="1"/>
+<text x="1245.0" y="784" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#244D72" font-weight="700" text-anchor="middle">Comentario publicado</text>
+<text x="1245.0" y="813" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Confirmación y lista</text>
+<polyline points="305,793 390,793" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="380,787 390,793 380,799" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="655,793 740,793" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="730,787 740,793 730,799" fill="none" stroke="#244D72" stroke-width="2"/>
+<text x="665" y="779" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#596574" font-weight="400" text-anchor="start">Error</text>
+<polyline points="872,834 872,881 523,881 523,834" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="517,844 523,834 529,844" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="523,752 523,709 1245,709 1245,752" fill="none" stroke="#244D72" stroke-width="2"/>
+<polyline points="1239,742 1245,752 1251,742" fill="none" stroke="#244D72" stroke-width="2"/>
+<text x="815" y="701" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">Datos válidos</text>
+<rect x="40" y="928" width="1360" height="63" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="62" y="966" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#202833" font-weight="400" text-anchor="start">Tema, tamaño e idioma cambian en la misma pantalla. «Volver» conserva búsqueda y filtros.</text>
+</svg>

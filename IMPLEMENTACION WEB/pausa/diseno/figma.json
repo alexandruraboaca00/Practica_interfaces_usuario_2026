@@ -1,0 +1,466 @@
+{
+  "file_url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn",
+  "prototipo_laura": "https://www.figma.com/proto/vP3kau1ExbjhCdFqqS9xCn?node-id=4-47&starting-point-node-id=4-47",
+  "prototipo_siobhan": "https://www.figma.com/proto/vP3kau1ExbjhCdFqqS9xCn?node-id=3-46&starting-point-node-id=3-46",
+  "fecha_revision": "2026-11-15",
+  "pantallas": {
+    "01_inicio_escritorio.svg": {
+      "id": "3:46",
+      "name": "WF01 · Inicio de Pausa · Escritorio 1440 px",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=3-46"
+    },
+    "02_articulo_escritorio.svg": {
+      "id": "3:136",
+      "name": "WF02 · Artículo y controles de lectura · Escritorio",
+      "width": 1440,
+      "height": 1120,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=3-136"
+    },
+    "03_busqueda_escritorio.svg": {
+      "id": "3:217",
+      "name": "WF03 · Buscar, filtrar y resaltar coincidencias",
+      "width": 1440,
+      "height": 960,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=3-217"
+    },
+    "04_guardados_escritorio.svg": {
+      "id": "3:305",
+      "name": "WF04 · Guardados y deshacer",
+      "width": 1440,
+      "height": 860,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=3-305"
+    },
+    "05_inicio_movil.svg": {
+      "id": "4:47",
+      "name": "WF05 · Inicio móvil · 390 px",
+      "width": 390,
+      "height": 1010,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=4-47"
+    },
+    "06_articulo_movil.svg": {
+      "id": "4:97",
+      "name": "WF06 · Artículo móvil y lectura · 390 px",
+      "width": 390,
+      "height": 1270,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=4-97"
+    },
+    "07_articulo_tablet.svg": {
+      "id": "4:148",
+      "name": "WF07 · Artículo en tablet · 768 px",
+      "width": 768,
+      "height": 1024,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=4-148"
+    },
+    "08_estados_y_comentarios.svg": {
+      "id": "4:187",
+      "name": "WF08 · Estados vacíos, validación y comentarios",
+      "width": 1440,
+      "height": 880,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=4-187"
+    },
+    "09_diagrama_estructura.svg": {
+      "id": "4:226",
+      "name": "Diagrama de estructura del sitio Pausa",
+      "width": 1440,
+      "height": 800,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=4-226"
+    },
+    "10_diagrama_navegacion.svg": {
+      "id": "4:294",
+      "name": "Diagrama de navegación: búsqueda, lectura, guardados y comentarios",
+      "width": 1440,
+      "height": 1020,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=4-294"
+    },
+    "11_busqueda_movil.svg": {
+      "id": "4:408",
+      "name": "WF11 · Resultados de búsqueda móvil · Laura",
+      "width": 390,
+      "height": 1110,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=4-408"
+    },
+    "12_guardados_movil.svg": {
+      "id": "4:456",
+      "name": "WF12 · Guardados móvil · Laura",
+      "width": 390,
+      "height": 880,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=4-456"
+    },
+    "13_articulo_en_guardado.svg": {
+      "id": "5:94",
+      "name": "WF13 · Interfaz EN y artículo guardado · Siobhán",
+      "width": 1440,
+      "height": 1120,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-94"
+    },
+    "14_articulo_oscuro.svg": {
+      "id": "5:171",
+      "name": "WF14 · Artículo con tema oscuro",
+      "width": 1440,
+      "height": 1120,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-171"
+    },
+    "15_comentario_en_error.svg": {
+      "id": "5:258",
+      "name": "WF15 · Comment validation · Siobhán",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-258"
+    },
+    "16_comentario_en_publicado.svg": {
+      "id": "5:276",
+      "name": "WF16 · Comment published · Siobhán",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-276"
+    },
+    "17_articulo_en_sepia.svg": {
+      "id": "5:296",
+      "name": "WF17 · Interfaz EN con sepia y letra grande · Siobhán",
+      "width": 1440,
+      "height": 1120,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-296"
+    },
+    "18_articulo_movil_guardado.svg": {
+      "id": "5:381",
+      "name": "WF18 · Artículo móvil guardado · Laura",
+      "width": 390,
+      "height": 1330,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-381"
+    },
+    "19_menu_movil.svg": {
+      "id": "5:432",
+      "name": "WF19 · Menú móvil",
+      "width": 390,
+      "height": 880,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-432"
+    },
+    "20_ayuda.svg": {
+      "id": "5:452",
+      "name": "WF20 · Ayuda y accesibilidad",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-452"
+    },
+    "21_articulo_inicial_siobhan.svg": {
+      "id": "5:469",
+      "name": "WF21 · Artículo inicial · Siobhán",
+      "width": 1440,
+      "height": 1120,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-469"
+    },
+    "22_articulo_en.svg": {
+      "id": "5:546",
+      "name": "WF22 · Interfaz EN antes de guardar",
+      "width": 1440,
+      "height": 1120,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-546"
+    },
+    "23_articulo_en_sepia_sin_guardar.svg": {
+      "id": "5:623",
+      "name": "WF23 · Interfaz EN sepia antes de guardar",
+      "width": 1440,
+      "height": 1120,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=5-623"
+    },
+    "24_busqueda_movil_sin_filtro.svg": {
+      "id": "7:174",
+      "name": "WF24 · Búsqueda móvil antes de filtrar",
+      "width": 390,
+      "height": 1110,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=7-174"
+    },
+    "25_inicio_en.svg": {
+      "id": "7:224",
+      "name": "WF25 · Inicio EN e índice de la revista",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=7-224"
+    },
+    "26_articulo_en_sepia_mediano.svg": {
+      "id": "7:308",
+      "name": "WF26 · Interfaz EN con tema sepia y letra mediana",
+      "width": 1440,
+      "height": 1120,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=7-308"
+    },
+    "27_comentario_en_relleno.svg": {
+      "id": "8:205",
+      "name": "WF27 · Comment ready to post · Siobhán",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=8-205"
+    },
+    "28_comentario_en_inicial.svg": {
+      "id": "8:222",
+      "name": "WF28 · Comment form · Siobhán",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://www.figma.com/design/vP3kau1ExbjhCdFqqS9xCn?node-id=8-222"
+    }
+  },
+  "conexiones": [
+    {
+      "id": "9:210",
+      "from": "4:47",
+      "to": "7:174",
+      "label": "Buscar ciudad",
+      "reactions": 1
+    },
+    {
+      "id": "9:212",
+      "from": "4:47",
+      "to": "7:174",
+      "label": "Introducir consulta ciudad",
+      "reactions": 1
+    },
+    {
+      "id": "9:214",
+      "from": "7:174",
+      "to": "4:408",
+      "label": "Filtrar Sociedad",
+      "reactions": 1
+    },
+    {
+      "id": "9:216",
+      "from": "4:408",
+      "to": "7:174",
+      "label": "Quitar filtros",
+      "reactions": 1
+    },
+    {
+      "id": "9:218",
+      "from": "4:408",
+      "to": "4:97",
+      "label": "Abrir artículo",
+      "reactions": 1
+    },
+    {
+      "id": "9:220",
+      "from": "4:97",
+      "to": "5:381",
+      "label": "Guardar artículo",
+      "reactions": 1
+    },
+    {
+      "id": "9:222",
+      "from": "5:381",
+      "to": "4:456",
+      "label": "Abrir Mis guardados",
+      "reactions": 1
+    },
+    {
+      "id": "9:224",
+      "from": "4:456",
+      "to": "5:381",
+      "label": "Recuperar artículo guardado",
+      "reactions": 1
+    },
+    {
+      "id": "9:226",
+      "from": "4:456",
+      "to": "5:432",
+      "label": "Menú",
+      "reactions": 1
+    },
+    {
+      "id": "9:228",
+      "from": "4:47",
+      "to": "5:432",
+      "label": "Menú",
+      "reactions": 1
+    },
+    {
+      "id": "9:230",
+      "from": "5:432",
+      "to": "4:47",
+      "label": "Inicio",
+      "reactions": 1
+    },
+    {
+      "id": "9:232",
+      "from": "5:432",
+      "to": "7:174",
+      "label": "Explorar",
+      "reactions": 1
+    },
+    {
+      "id": "9:234",
+      "from": "5:432",
+      "to": "4:456",
+      "label": "Mis guardados",
+      "reactions": 1
+    },
+    {
+      "id": "9:236",
+      "from": "5:432",
+      "to": "4:47",
+      "label": "Cerrar menú",
+      "reactions": 1
+    },
+    {
+      "id": "9:238",
+      "from": "3:46",
+      "to": "7:224",
+      "label": "Seleccionar EN",
+      "reactions": 1
+    },
+    {
+      "id": "9:240",
+      "from": "7:224",
+      "to": "5:546",
+      "label": "Abrir primer artículo del índice",
+      "reactions": 1
+    },
+    {
+      "id": "9:242",
+      "from": "5:546",
+      "to": "7:308",
+      "label": "Seleccionar Sepia",
+      "reactions": 1
+    },
+    {
+      "id": "9:244",
+      "from": "7:308",
+      "to": "5:623",
+      "label": "Seleccionar Large",
+      "reactions": 1
+    },
+    {
+      "id": "9:246",
+      "from": "5:623",
+      "to": "5:296",
+      "label": "Guardar Save",
+      "reactions": 1
+    },
+    {
+      "id": "9:248",
+      "from": "5:296",
+      "to": "8:222",
+      "label": "Abrir comentarios",
+      "reactions": 1
+    },
+    {
+      "id": "9:250",
+      "from": "8:222",
+      "to": "5:258",
+      "label": "Enviar vacío y ver error",
+      "reactions": 1
+    },
+    {
+      "id": "9:252",
+      "from": "8:222",
+      "to": "8:205",
+      "label": "Escribir comentario de ejemplo",
+      "reactions": 1
+    },
+    {
+      "id": "9:254",
+      "from": "5:258",
+      "to": "8:205",
+      "label": "Corregir comentario",
+      "reactions": 1
+    },
+    {
+      "id": "9:256",
+      "from": "8:205",
+      "to": "5:276",
+      "label": "Publicar comentario",
+      "reactions": 1
+    },
+    {
+      "id": "9:258",
+      "from": "5:276",
+      "to": "5:296",
+      "label": "Volver al artículo",
+      "reactions": 1
+    },
+    {
+      "id": "9:260",
+      "from": "5:258",
+      "to": "5:296",
+      "label": "Volver al artículo",
+      "reactions": 1
+    },
+    {
+      "id": "9:262",
+      "from": "8:222",
+      "to": "5:296",
+      "label": "Volver al artículo",
+      "reactions": 1
+    },
+    {
+      "id": "9:264",
+      "from": "8:205",
+      "to": "5:296",
+      "label": "Volver al artículo",
+      "reactions": 1
+    },
+    {
+      "id": "9:266",
+      "from": "5:546",
+      "to": "5:171",
+      "label": "Ver tema oscuro",
+      "reactions": 1
+    },
+    {
+      "id": "9:268",
+      "from": "5:171",
+      "to": "5:546",
+      "label": "Volver a tema claro",
+      "reactions": 1
+    },
+    {
+      "id": "9:270",
+      "from": "3:46",
+      "to": "5:469",
+      "label": "Leer artículo ES",
+      "reactions": 1
+    },
+    {
+      "id": "9:272",
+      "from": "5:469",
+      "to": "5:546",
+      "label": "Seleccionar EN",
+      "reactions": 1
+    },
+    {
+      "id": "9:274",
+      "from": "3:46",
+      "to": "5:452",
+      "label": "Ayuda",
+      "reactions": 1
+    },
+    {
+      "id": "9:276",
+      "from": "5:452",
+      "to": "3:46",
+      "label": "Volver a Inicio",
+      "reactions": 1
+    },
+    {
+      "id": "9:278",
+      "from": "3:217",
+      "to": "4:187",
+      "label": "Ver ejemplo sin resultados",
+      "reactions": 1
+    },
+    {
+      "id": "9:280",
+      "from": "4:187",
+      "to": "3:217",
+      "label": "Quitar filtros",
+      "reactions": 1
+    },
+    {
+      "id": "9:282",
+      "from": "3:305",
+      "to": "3:217",
+      "label": "Explorar",
+      "reactions": 1
+    }
+  ],
+  "nota": "El prototipo simula entradas predefinidas. Exportación visual final de Figma limitada por el plan Starter."
+}

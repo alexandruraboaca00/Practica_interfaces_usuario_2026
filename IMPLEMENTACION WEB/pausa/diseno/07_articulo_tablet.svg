@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="1024" viewBox="0 0 768 1024">
+<title>WF07 · Artículo en tablet · 768 px</title>
+<rect x="0" y="0" width="768" height="1024" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="30" y="53" font-family="Arial, Liberation Sans, sans-serif" font-size="31" fill="#244D72" font-weight="700" text-anchor="start">PAUSA</text>
+<text x="205" y="50" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="start">Inicio</text>
+<text x="287" y="50" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="start">Explorar</text>
+<text x="391" y="50" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="start">Guardados</text>
+<rect x="545" y="22" width="86" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="588.0" y="49.25" font-family="Arial, Liberation Sans, sans-serif" font-size="15" fill="#202833" font-weight="400" text-anchor="middle">Lectura</text>
+<rect x="642" y="22" width="96" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="690.0" y="49.25" font-family="Arial, Liberation Sans, sans-serif" font-size="15" fill="#202833" font-weight="400" text-anchor="middle">ES / EN</text>
+<rect x="0" y="79" width="768" height="6" rx="0" fill="#F1F3F5" stroke="none" stroke-width="1"/>
+<rect x="0" y="79" width="269" height="6" rx="0" fill="#244D72" stroke="none" stroke-width="1"/>
+<text x="30" y="124" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#244D72" font-weight="400" text-anchor="start">Inicio / Sociedad / Artículo</text>
+<text x="30" y="177" font-family="Arial, Liberation Sans, sans-serif" font-size="36" fill="#202833" font-weight="700" text-anchor="start">La ciudad también se puede leer</text>
+<text x="30" y="221" font-family="Arial, Liberation Sans, sans-serif" font-size="36" fill="#202833" font-weight="700" text-anchor="start">despacio</text>
+<text x="30" y="286" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#596574" font-weight="400" text-anchor="start">Ana Ruiz · 1200 palabras · 6 min · Progreso: 35 %</text>
+<rect x="30" y="313" width="180" height="48" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="120.0" y="343.65" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#202833" font-weight="400" text-anchor="middle">+ Guardar</text>
+<rect x="230" y="313" width="238" height="48" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="349.0" y="343.3" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">Índice de la revista  v</text>
+<rect x="489" y="313" width="249" height="48" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="613.5" y="342.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Lectura: Claro · Mediano</text>
+<rect x="30" y="391" width="708" height="230" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="30" y1="391" x2="738" y2="621" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="738" y1="391" x2="30" y2="621" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="289.0" y="491.0" width="190" height="30" rx="5" fill="#F1F3F5" stroke="none" stroke-width="1"/>
+<text x="384.0" y="512.0" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="middle">Imagen del artículo</text>
+<text x="62" y="674" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#202833" font-weight="700" text-anchor="start">Una forma distinta de mirar</text>
+<text x="62" y="722" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">Las calles cuentan historias que a menudo pasan</text>
+<text x="62" y="755" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">desapercibidas. Una plaza, una biblioteca o un</text>
+<text x="62" y="788" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">paseo de barrio pueden convertirse en una</text>
+<text x="62" y="821" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">oportunidad para detenernos y observar.</text>
+<rect x="62" y="900" width="644" height="8" rx="2" fill="#D9DEE3" stroke="none" stroke-width="1"/>
+<rect x="62" y="927" width="644" height="8" rx="2" fill="#D9DEE3" stroke="none" stroke-width="1"/>
+<rect x="62" y="954" width="489.44" height="8" rx="2" fill="#D9DEE3" stroke="none" stroke-width="1"/>
+</svg>

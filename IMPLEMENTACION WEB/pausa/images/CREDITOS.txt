@@ -1,0 +1,32 @@
+Pausa · Recursos gráficos de la implementación · 23/11/2026
+
+pausa-logo.png
+Símbolo original del proyecto Pausa, recuperado sin modificar de
+doc/Pausa_Presentacion_Punto_6.pptx (ppt/media/image1.png).
+Propuesta de marca generada con IA durante el trabajo de diseño del equipo.
+
+ciudad.png
+Imagen ilustrativa generada con IA para este proyecto. Representa una calle
+mediterránea imaginada; no documenta un lugar ni un acontecimiento real.
+
+Fotografías descargadas de Unsplash para uso ilustrativo, sin afirmar que
+documenten las historias ficticias de la revista:
+
+museo.jpg (detalle de pintura abstracta)
+https://images.unsplash.com/photo-1561214115-f2f134cc4912
+
+lluvia.jpg (bosque)
+https://images.unsplash.com/photo-1441974231531-c6227db76b6e
+
+rituales.jpg (preparación de café)
+https://images.unsplash.com/photo-1442512595331-e89e73853f31
+
+biblioteca.jpg (estanterías)
+https://images.unsplash.com/photo-1507842217343-583bb7270b66
+
+paisaje.jpg (lago y barca)
+https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1
+
+Licencia de Unsplash: https://unsplash.com/license
+Las imágenes se sirven desde este repositorio: la web no depende de peticiones
+a Unsplash, Google Fonts o servicios de iconos durante su uso.

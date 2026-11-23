@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+  <title>WF20 · Ayuda y accesibilidad</title>
+  <rect x="0" y="0" width="1440" height="1000" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+  <text x="40" y="60" fill="#244D72" font-size="32" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">PAUSA</text>
+  <text x="40" y="135" fill="#202833" font-size="36" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">Ayuda y accesibilidad</text>
+  <text x="40" y="220" fill="#202833" font-size="26" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">Guardar y recuperar</text>
+  <text x="40" y="263" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">Pulsa Guardar en una tarjeta o artículo. Encontrarás la lectura en Mis guardados, en este</text>
+  <text x="40" y="294" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">dispositivo.</text>
+  <text x="40" y="390" fill="#202833" font-size="26" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">Personalizar la lectura</text>
+  <text x="40" y="433" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">En Lectura puedes cambiar el tema y el tamaño del texto. Restablecer lectura recupera los ajustes</text>
+  <text x="40" y="464" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">iniciales.</text>
+  <text x="40" y="560" fill="#202833" font-size="26" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">Buscar y filtrar</text>
+  <text x="40" y="603" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">Escribe una consulta y pulsa Buscar. Las etiquetas reducen los resultados. Quitar filtros conserva</text>
+  <text x="40" y="634" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">tu consulta.</text>
+  <text x="40" y="730" fill="#202833" font-size="26" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="start">Comentar</text>
+  <text x="40" y="773" fill="#202833" font-size="21" font-family="Arial, Liberation Sans, sans-serif" font-weight="400" text-anchor="start">Introduce un alias y un mensaje de hasta 500 caracteres. Los avisos explican qué necesitas corregir.</text>
+  <rect x="40" y="885" width="280" height="48" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+  <text x="180.0" y="914.78" fill="#FFFFFF" font-size="17" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" text-anchor="middle">Volver a Inicio</text>
+</svg>

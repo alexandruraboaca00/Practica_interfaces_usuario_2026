@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light" data-font="medium">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pausa: una revista digital de cultura, ciencia y vida cotidiana. Descubre historias, guarda tus lecturas y encuentra tu ritmo.">
+  <meta name="theme-color" content="#f8f7f3">
+  <title>Pausa · Una revista para leer a tu ritmo</title>
+  <link rel="icon" type="image/png" href="../images/pausa-logo.png">
+  <link rel="stylesheet" href="../style/main.css">
+  <script src="../script/data.js" defer></script>
+  <script src="../script/core.js" defer></script>
+  <script src="../script/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Saltar al contenido</a>
+  <header class="site-header">
+    <div id="reading-progress" class="reading-progress" role="progressbar" aria-label="Progreso de lectura" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" hidden><span></span></div>
+    <div class="header-inner">
+      <a class="brand" href="#/inicio" aria-label="Pausa, inicio" data-home-label>
+        <img class="brand-logo" src="../images/pausa-logo.png" alt="" width="64" height="64">
+        <span>Pausa<span class="brand-period">.</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegación principal" data-nav-label>
+        <a href="#/inicio" data-route="inicio" data-i18n="home">Inicio</a>
+        <a href="#/explorar" data-route="explorar" data-i18n="explore">Explorar</a>
+        <a href="#/indice" data-route="indice" data-i18n="index">Índice</a>
+        <a href="#/guardados" data-route="guardados"><span data-i18n="saved">Guardados</span><span class="saved-count" data-saved-count hidden>0</span></a>
+      </nav>
+      <div class="header-actions">
+        <button class="reading-trigger" type="button" data-action="reading" aria-haspopup="dialog"><span class="reading-symbol" aria-hidden="true">Aa</span><span class="reading-label" data-i18n="reading">Lectura</span></button>
+        <label class="language-control"><span class="sr-only" data-i18n="language">Idioma</span><select id="language" aria-label="Idioma"><option value="es" lang="es">ES</option><option value="en" lang="en">EN</option></select></label>
+        <button class="menu-toggle icon-button" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú" data-action="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Navegación móvil" hidden>
+      <a href="#/inicio" data-i18n="home">Inicio</a><a href="#/explorar" data-i18n="explore">Explorar</a><a href="#/indice" data-i18n="index">Índice</a><a href="#/guardados" data-i18n="saved">Guardados</a><a href="#/ayuda" data-i18n="help">Ayuda</a>
+    </nav>
+  </header>
+  <div id="storage-warning" class="storage-warning" role="status" hidden></div>
+  <main id="main" tabindex="-1"><div id="app"><h1>Pausa</h1><p>Cargando historias…</p></div></main>
+  <noscript><p class="no-script">Pausa necesita JavaScript para buscar, guardar y leer los artículos. Actívalo en el navegador para acceder a la revista.</p></noscript>
+  <footer class="site-footer">
+    <div class="footer-top"><a class="brand footer-brand" href="#/inicio" aria-label="Pausa, inicio" data-home-label><img class="brand-logo" src="../images/pausa-logo.png" alt="" width="56" height="56"><span>Pausa<span class="brand-period">.</span></span></a><p data-i18n="footerLine">Menos ruido. Más historias que importan.</p><a href="#/ayuda" data-i18n="helpAccess">Ayuda y accesibilidad</a></div>
+    <div class="footer-bottom"><span data-i18n="project">Proyecto académico · Interfaces de Usuario · UC3M 2026/2027</span><span data-i18n="localNote">Tus lecturas, en este dispositivo.</span></div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="reading-dialog" class="reading-dialog" aria-labelledby="reading-title"><div class="dialog-heading"><h2 id="reading-title" data-i18n="readingPrefs">A tu manera</h2><button class="icon-button" type="button" data-action="close-reading" aria-label="Cerrar"><span aria-hidden="true">×</span></button></div><p data-i18n="prefsIntro">Un espacio cómodo para cada lectura.</p><div id="dialog-options"></div><p class="muted small" data-i18n="prefsSaved">Recordaremos tus preferencias en este dispositivo.</p></dialog>
+</body>
+</html>

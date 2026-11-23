@@ -1,0 +1,30 @@
+PAUSA · WEB IMPLEMENTADA · 23/11/2026
+
+Abrir pausa/src/index.html en un navegador moderno.
+Para usar un servidor local: abrir un terminal dentro de pausa/, ejecutar
+npm start y visitar http://127.0.0.1:3000/src/.
+No hace falta instalar dependencias para abrir la web.
+
+Comprobar el código con Node.js 24:
+npm ci
+npm run check
+
+La carpeta pausa/ contiene el repositorio completo con la implementación,
+sin .git ni node_modules. Se mantienen los documentos y diseños existentes.
+
+El push no se completó: GitHub devolvió 403 para la cuenta chaochen713 y
+la integración conectada. No se ha modificado la rama remota.
+Commit local preparado: 44b8492.
+
+Para incorporar solo el cambio en una copia limpia del repositorio original:
+git am /ruta/Pausa_web.patch
+git push origin main
+
+El segundo comando necesita una cuenta/conexión con escritura autorizada en
+alexandruraboaca00/Practica_interfaces_usuario_2026. También se puede copiar
+el contenido de pausa/ sobre una copia local del repositorio y revisar los cambios.
+
+Guardados, comentarios y preferencias permanecen solo en el navegador local.
+Revisar doc/VALIDACION_WEB.md: WAVE en navegador y SUS con otro grupo siguen
+pendientes. El informe registra 23 pruebas automáticas satisfactorias y la
+validación HTML W3C de ocho documentos sin errores ni avisos.

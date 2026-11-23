@@ -1,0 +1,48 @@
+{
+  "fecha": "2026-11-23",
+  "servicio": "https://validator.w3.org/nu/?out=json",
+  "metodo": "POST text/html; charset=utf-8",
+  "origen_vistas": "Documentos obtenidos al ejecutar los scripts en JSDOM; entradas HTML leídas del repositorio.",
+  "resultados": [
+    {
+      "vista": "pausa-inicio.html",
+      "version": "26.11.20",
+      "mensajes": []
+    },
+    {
+      "vista": "pausa-articulo.html",
+      "version": "26.11.20",
+      "mensajes": []
+    },
+    {
+      "vista": "pausa-indice.html",
+      "version": "26.11.20",
+      "mensajes": []
+    },
+    {
+      "vista": "pausa-ayuda.html",
+      "version": "26.11.20",
+      "mensajes": []
+    },
+    {
+      "vista": "pausa-guardados.html",
+      "version": "26.11.20",
+      "mensajes": []
+    },
+    {
+      "vista": "pausa-explorar.html",
+      "version": "26.11.20",
+      "mensajes": []
+    },
+    {
+      "vista": "src/index.html",
+      "version": "26.11.20",
+      "mensajes": []
+    },
+    {
+      "vista": "index.html",
+      "version": "26.11.20",
+      "mensajes": []
+    }
+  ]
+}

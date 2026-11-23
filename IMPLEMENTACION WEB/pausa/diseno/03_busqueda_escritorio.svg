@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960">
+<title>WF03 · Buscar, filtrar y resaltar coincidencias</title>
+<rect x="0" y="0" width="1440" height="960" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="48" y="60" font-family="Arial, Liberation Sans, sans-serif" font-size="36" fill="#244D72" font-weight="700" text-anchor="start">PAUSA</text>
+<text x="260" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="start">Inicio</text>
+<text x="360" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#244D72" font-weight="700" text-anchor="start">Explorar</text>
+<line x1="360" y1="72" x2="440" y2="72" stroke="#244D72" stroke-width="3"/>
+<text x="495" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="start">Índice de la revista</text>
+<text x="750" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="start">Guardados</text>
+<rect x="1100" y="26" width="135" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1167.5" y="53.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Lectura</text>
+<rect x="1255" y="26" width="135" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1322.5" y="53.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">ES / EN v</text>
+<line x1="0" y1="92" x2="1440" y2="92" stroke="#B8C0C8" stroke-width="1"/>
+<text x="48" y="155" font-family="Arial, Liberation Sans, sans-serif" font-size="34" fill="#202833" font-weight="700" text-anchor="start">Explorar artículos</text>
+<rect x="48" y="185" width="780" height="56" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="68" y="221" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#202833" font-weight="400" text-anchor="start">ciudad</text>
+<rect x="845" y="185" width="130" height="56" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="910.0" y="220.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#FFFFFF" font-weight="700" text-anchor="middle">Buscar</text>
+<rect x="995" y="185" width="145" height="56" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1067.5" y="220.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#202833" font-weight="400" text-anchor="middle">Limpiar</text>
+<rect x="48" y="269" width="120" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="108.0" y="296.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Todas</text>
+<rect x="180" y="269" width="140" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="250.0" y="296.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Cultura</text>
+<rect x="332" y="269" width="140" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="402.0" y="296.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Ciencia</text>
+<rect x="484" y="269" width="150" height="44" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="559.0" y="296.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle">Sociedad</text>
+<text x="48" y="355" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#202833" font-weight="700" text-anchor="start">3 resultados para «ciudad»</text>
+<text x="48" y="391" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#244D72" font-weight="400" text-anchor="start">Filtro activo: Sociedad  ×     ·     Quitar filtros</text>
+<rect x="48" y="426" width="1344" height="124" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="64" y="442" width="160" height="92" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="64" y1="442" x2="224" y2="534" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="224" y1="442" x2="64" y2="534" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="49.0" y="473.0" width="190" height="30" rx="5" fill="#F1F3F5" stroke="none" stroke-width="1"/>
+<text x="144.0" y="494.0" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="middle">Imagen</text>
+<text x="250" y="465" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start">La </text>
+<rect x="288.5" y="442" width="86" height="31" rx="1" fill="#FFE49C" stroke="#202833" stroke-width="1"/>
+<text x="290.5" y="465" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start">ciudad</text>
+<text x="381.5" y="465" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start"> también se puede leer despacio</text>
+<text x="250" y="503" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#596574" font-weight="400" text-anchor="start">Extracto del contenido con coincidencias destacadas y etiqueta Sociedad.</text>
+<text x="250" y="530" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">6 min de lectura</text>
+<rect x="1190" y="493" width="175" height="36" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1277.5" y="517.3" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">+ Guardar</text>
+<rect x="48" y="568" width="1344" height="124" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="64" y="584" width="160" height="92" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="64" y1="584" x2="224" y2="676" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="224" y1="584" x2="64" y2="676" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="49.0" y="615.0" width="190" height="30" rx="5" fill="#F1F3F5" stroke="none" stroke-width="1"/>
+<text x="144.0" y="636.0" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="middle">Imagen</text>
+<text x="250" y="607" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start">La </text>
+<rect x="288.5" y="584" width="86" height="31" rx="1" fill="#FFE49C" stroke="#202833" stroke-width="1"/>
+<text x="290.5" y="607" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start">ciudad</text>
+<text x="381.5" y="607" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start"> y sus espacios compartidos</text>
+<text x="250" y="645" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#596574" font-weight="400" text-anchor="start">Extracto del contenido con coincidencias destacadas y etiqueta Sociedad.</text>
+<text x="250" y="672" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">6 min de lectura</text>
+<rect x="1190" y="635" width="175" height="36" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1277.5" y="659.3" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">+ Guardar</text>
+<rect x="48" y="710" width="1344" height="124" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="64" y="726" width="160" height="92" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="64" y1="726" x2="224" y2="818" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="224" y1="726" x2="64" y2="818" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="49.0" y="757.0" width="190" height="30" rx="5" fill="#F1F3F5" stroke="none" stroke-width="1"/>
+<text x="144.0" y="778.0" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="middle">Imagen</text>
+<text x="250" y="749" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start">Aprender a escuchar una </text>
+<rect x="572.0" y="726" width="86" height="31" rx="1" fill="#FFE49C" stroke="#202833" stroke-width="1"/>
+<text x="574.0" y="749" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start">ciudad</text>
+<text x="665.0" y="749" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start"></text>
+<text x="250" y="787" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#596574" font-weight="400" text-anchor="start">Extracto del contenido con coincidencias destacadas y etiqueta Sociedad.</text>
+<text x="250" y="814" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">6 min de lectura</text>
+<rect x="1190" y="777" width="175" height="36" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1277.5" y="801.3" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="400" text-anchor="middle">+ Guardar</text>
+<line x1="48" y1="900" x2="1392" y2="900" stroke="#B8C0C8" stroke-width="1"/>
+<text x="48" y="930" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">PAUSA · Cultura, ciencia y vida cotidiana</text>
+<text x="1120" y="930" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#244D72" font-weight="400" text-anchor="start">Ayuda · Accesibilidad</text>
+</svg>

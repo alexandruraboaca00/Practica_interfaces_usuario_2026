@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1120" viewBox="0 0 1440 1120">
+<title>WF02 · Artículo y controles de lectura · Escritorio</title>
+<rect x="0" y="0" width="1440" height="1120" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1440" height="7" rx="0" fill="#E0E4E8" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="504" height="7" rx="0" fill="#244D72" stroke="none" stroke-width="1"/>
+<text x="48" y="60" font-family="Arial, Liberation Sans, sans-serif" font-size="36" fill="#244D72" font-weight="700" text-anchor="start">PAUSA</text>
+<text x="260" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="start">Inicio</text>
+<text x="360" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#244D72" font-weight="700" text-anchor="start">Explorar</text>
+<line x1="360" y1="72" x2="440" y2="72" stroke="#244D72" stroke-width="3"/>
+<text x="495" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="start">Índice de la revista</text>
+<text x="750" y="58" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="400" text-anchor="start">Guardados</text>
+<rect x="1100" y="26" width="135" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1167.5" y="53.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Lectura</text>
+<rect x="1255" y="26" width="135" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1322.5" y="53.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">ES / EN v</text>
+<line x1="0" y1="92" x2="1440" y2="92" stroke="#B8C0C8" stroke-width="1"/>
+<text x="48" y="130" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#244D72" font-weight="400" text-anchor="start">Inicio  /  Sociedad  /  Artículo</text>
+<text x="960" y="130" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#244D72" font-weight="400" text-anchor="start">Progreso de lectura: 35 %</text>
+<text x="48" y="190" font-family="Arial, Liberation Sans, sans-serif" font-size="41" fill="#202833" font-weight="700" text-anchor="start">La ciudad también se puede leer despacio</text>
+<text x="48" y="296" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#596574" font-weight="400" text-anchor="start">Ana Ruiz · 05/11/2026 · 1200 palabras · 6 min de lectura</text>
+<rect x="48" y="320" width="160" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="128.0" y="347.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">+ Guardar</text>
+<rect x="225" y="320" width="190" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="320.0" y="347.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Ver comentarios</text>
+<rect x="48" y="388" width="900" height="618" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="74" y="410" width="848" height="170" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="74" y1="410" x2="922" y2="580" stroke="#B8C0C8" stroke-width="1"/>
+<line x1="922" y1="410" x2="74" y2="580" stroke="#B8C0C8" stroke-width="1"/>
+<rect x="403.0" y="480.0" width="190" height="30" rx="5" fill="#F1F3F5" stroke="none" stroke-width="1"/>
+<text x="498.0" y="501.0" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="middle">Imagen del artículo</text>
+<text x="86" y="624" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#202833" font-weight="700" text-anchor="start">Una forma distinta de mirar</text>
+<text x="86" y="668" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">Las calles cuentan historias que a menudo pasan desapercibidas.</text>
+<text x="86" y="701" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">Una plaza, una biblioteca o un paseo de barrio pueden convertirse</text>
+<text x="86" y="734" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">en una oportunidad para detenernos y observar.</text>
+<text x="86" y="789" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">Leer con calma permite relacionar ideas y encontrar preguntas</text>
+<text x="86" y="822" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">nuevas. Por eso, cada persona puede elegir la apariencia que le</text>
+<text x="86" y="855" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">resulte más cómoda.</text>
+<rect x="86" y="913" width="760" height="8" rx="2" fill="#D9DEE3" stroke="none" stroke-width="1"/>
+<rect x="86" y="941" width="760" height="8" rx="2" fill="#D9DEE3" stroke="none" stroke-width="1"/>
+<rect x="86" y="969" width="577.6" height="8" rx="2" fill="#D9DEE3" stroke="none" stroke-width="1"/>
+<rect x="986" y="167" width="406" height="412" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1010" y="207" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#202833" font-weight="700" text-anchor="start">Lectura</text>
+<text x="1010" y="244" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="700" text-anchor="start">Tema de color</text>
+<rect x="1010" y="261" width="110" height="44" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="1065.0" y="288.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle">Claro</text>
+<rect x="1128" y="261" width="113" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1184.5" y="288.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Oscuro</text>
+<rect x="1249" y="261" width="115" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1306.5" y="288.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Sepia</text>
+<text x="1010" y="343" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="700" text-anchor="start">Tamaño de letra</text>
+<rect x="1010" y="360" width="110" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1065.0" y="387.6" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#202833" font-weight="400" text-anchor="middle">Pequeño</text>
+<rect x="1128" y="360" width="113" height="44" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="1184.5" y="387.6" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">Mediano</text>
+<rect x="1249" y="360" width="115" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1306.5" y="387.6" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#202833" font-weight="400" text-anchor="middle">Grande</text>
+<text x="1010" y="436" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">Preferencias en este dispositivo</text>
+<rect x="1010" y="459" width="354" height="42" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1187.0" y="485.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Restablecer lectura</text>
+<text x="1010" y="544" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#596574" font-weight="400" text-anchor="start">Tiempo estimado de lectura: 6 minutos</text>
+<rect x="986" y="610" width="406" height="396" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="1010" y="652" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#202833" font-weight="700" text-anchor="start">Índice de la revista</text>
+<text x="1010" y="697.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#244D72" font-weight="700" text-anchor="start">01 · La ciudad también se</text>
+<text x="1010" y="726.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#244D72" font-weight="700" text-anchor="start">puede leer despacio</text>
+<text x="1010" y="778.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#244D72" font-weight="400" text-anchor="start">02 · Lo que cuenta un museo de</text>
+<text x="1010" y="807.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#244D72" font-weight="400" text-anchor="start">barrio</text>
+<text x="1010" y="859.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#244D72" font-weight="400" text-anchor="start">03 · Ciencia para una tarde de</text>
+<text x="1010" y="888.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#244D72" font-weight="400" text-anchor="start">lluvia</text>
+<text x="1010" y="969" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">Cada enlace abre un artículo</text>
+<text x="48" y="1047" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#596574" font-weight="400" text-anchor="start">Al final del texto: etiquetas · comentarios · artículos relacionados</text>
+<line x1="48" y1="1062" x2="1392" y2="1062" stroke="#B8C0C8" stroke-width="1"/>
+<text x="48" y="1092" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">PAUSA · Cultura, ciencia y vida cotidiana</text>
+<text x="1120" y="1092" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#244D72" font-weight="400" text-anchor="start">Ayuda · Accesibilidad</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="880" viewBox="0 0 1440 880">
+<title>WF08 · Estados vacíos, validación y comentarios</title>
+<rect x="0" y="0" width="1440" height="880" rx="5" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="40" y="56" font-family="Arial, Liberation Sans, sans-serif" font-size="34" fill="#202833" font-weight="700" text-anchor="start">Estados y comentarios</text>
+<rect x="40" y="92" width="650" height="310" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="64" y="135" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start">Búsqueda sin resultados</text>
+<text x="64" y="181" font-family="Arial, Liberation Sans, sans-serif" font-size="23" fill="#202833" font-weight="400" text-anchor="start">0 resultados para «ciudadd»</text>
+<text x="64" y="224.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#202833" font-weight="400" text-anchor="start">Revisa la palabra o elimina alguna etiqueta. La</text>
+<text x="64" y="253.0" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#202833" font-weight="400" text-anchor="start">consulta se conserva para que puedas corregirla.</text>
+<rect x="64" y="333" width="265" height="44" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="196.5" y="360.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle">Quitar filtros</text>
+<rect x="350" y="333" width="315" height="44" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="507.5" y="360.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#202833" font-weight="400" text-anchor="middle">Editar búsqueda</text>
+<rect x="730" y="92" width="670" height="310" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="754" y="135" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#202833" font-weight="700" text-anchor="start">Guardados vacíos</text>
+<text x="754" y="193.0" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">Todavía no has guardado artículos. Pulsa «+</text>
+<text x="754" y="224.9" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">Guardar» en una tarjeta o en un artículo.</text>
+<rect x="754" y="322" width="370" height="44" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="939.0" y="349.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle">Explorar artículos</text>
+<rect x="40" y="442" width="1360" height="390" rx="5" fill="#FFFFFF" stroke="#B8C0C8" stroke-width="1"/>
+<text x="64" y="487" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#202833" font-weight="700" text-anchor="start">Comentarios</text>
+<text x="64" y="527" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="700" text-anchor="start">Nombre o alias *</text>
+<rect x="64" y="542" width="590" height="45" rx="5" fill="#F1F3F5" stroke="#B8C0C8" stroke-width="1"/>
+<text x="77" y="573" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#202833" font-weight="400" text-anchor="start">Siobhán</text>
+<text x="64" y="622" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="700" text-anchor="start">Comentario *</text>
+<rect x="64" y="637" width="590" height="93" rx="5" fill="#FFFFFF" stroke="#202833" stroke-width="2"/>
+<text x="64" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#202833" font-weight="700" text-anchor="start">! Escribe un comentario antes de enviarlo.</text>
+<text x="599" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#596574" font-weight="400" text-anchor="start">0/500</text>
+<rect x="64" y="779" width="255" height="36" rx="5" fill="#244D72" stroke="#244D72" stroke-width="1"/>
+<text x="191.5" y="802.95" font-family="Arial, Liberation Sans, sans-serif" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle">Publicar comentario</text>
+<text x="718" y="531" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#202833" font-weight="700" text-anchor="start">Confirmación tras corregir:</text>
+<rect x="718" y="552" width="650" height="98" rx="5" fill="#F1F3F5" stroke="#244D72" stroke-width="2"/>
+<text x="738" y="591" font-family="DejaVu Sans" font-size="24" fill="#244D72" font-weight="700" text-anchor="start">✓ Comentario publicado</text>
+<text x="738" y="625" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#202833" font-weight="400" text-anchor="start">Tu mensaje aparece en la lista.</text>
+<text x="718" y="707" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#202833" font-weight="700" text-anchor="start">Siobhán · ahora</text>
+<text x="718" y="745.0" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#202833" font-weight="400" text-anchor="start">Me ha gustado esta forma de mirar la ciudad.</text>
+</svg>

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+~$*
+.~lock.*
+node_modules/
+coverage/
+
