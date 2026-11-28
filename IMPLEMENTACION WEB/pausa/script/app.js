@@ -11,12 +11,12 @@
       footerLine:'Menos ruido. Más historias que importan.', project:'Proyecto académico · Interfaces de Usuario · UC3M 2026/2027', localNote:'Tus lecturas, en este dispositivo.',
       readingPrefs:'A tu manera', prefsIntro:'Un espacio cómodo para cada lectura.', prefsSaved:'Recordaremos tus preferencias en este dispositivo.',
       all:'Todas', cultura:'Cultura', ciencia:'Ciencia', sociedad:'Sociedad', vida:'Vida cotidiana',
-      eyebrow:'EL ARTE DE TOMARSE UN MOMENTO', heroTitle:'Una pausa para<br><em>entender el mundo.</em>', heroIntro:'Historias de cultura, ciencia y vida cotidiana. Sin prisa, con curiosidad.', edition:'EDICIÓN DE NOVIEMBRE · 2026',
-      searchLabel:'Buscar en la revista', searchPlaceholder:'Busca una historia, un tema, una idea…', search:'Buscar', clear:'Limpiar filtros', categories:'Filtrar por categoría',
-      featured:'La historia destacada', more:'Más historias, otras miradas', read:'Leer artículo', minute:'min de lectura', save:'Guardar', savedState:'Guardado', remove:'Quitar de guardados',
-      contents:'En esta edición', contentsIntro:'Un pequeño mapa para tu próxima lectura.', viewIndex:'Ver todo el índice', allStories:'Todas las historias',
-      exploreIntro:'Sigue tu curiosidad. Hay una historia para cada momento.', savedIntro:'Un lugar para las historias a las que quieres volver.',
-      results:'historias', result:'historia', resultFor:'para', noResults:'Todavía no encontramos esa historia.', noResultsText:'Prueba con otra palabra o cambia la categoría. Tu consulta sigue aquí.',
+      heroTitle:'Una pausa para<br><em>entender el mundo.</em>', heroIntro:'Historias de cultura, ciencia y vida cotidiana.', edition:'EDICIÓN DE NOVIEMBRE · 2026',
+      searchLabel:'Buscar en la revista', searchPlaceholder:'Buscar artículos…', search:'Buscar', clear:'Limpiar filtros', categories:'Filtrar por categoría',
+      more:'Más historias', read:'Leer artículo', minute:'min de lectura', save:'Guardar', savedState:'Guardado', remove:'Quitar de guardados',
+      contents:'En esta edición', viewIndex:'Ver todo el índice', allStories:'Todas las historias',
+      savedIntro:'Un lugar para las historias a las que quieres volver.',
+      results:'historias', result:'historia', resultFor:'para', noResults:'No hay resultados', noResultsText:'Prueba con otra palabra o cambia la categoría.',
       emptySaved:'Las buenas historias merecen una segunda lectura.', emptySavedText:'Toca Guardar en cualquier artículo. Lo encontrarás aquí cuando quieras volver.', discover:'Descubrir historias',
       savedToast:'Artículo guardado para después.', removedToast:'Artículo quitado de guardados.', undo:'Deshacer', restored:'Artículo recuperado.',
       theme:'Tema de color', light:'Claro', dark:'Oscuro', sepia:'Sepia', font:'Tamaño del texto', small:'Pequeño', medium:'Mediano', large:'Grande', reset:'Restablecer preferencias',
@@ -40,12 +40,12 @@
       footerLine:'Less noise. More stories that matter.', project:'Academic project · User Interfaces · UC3M 2026/2027', localNote:'Your reading, on this device.',
       readingPrefs:'Make it yours', prefsIntro:'A comfortable space for every story.', prefsSaved:'We will remember your preferences on this device.',
       all:'All', cultura:'Culture', ciencia:'Science', sociedad:'Society', vida:'Everyday life',
-      eyebrow:'THE ART OF TAKING A MOMENT', heroTitle:'A pause to<br><em>understand the world.</em>', heroIntro:'Stories about culture, science and everyday life. Unhurried and curious.', edition:'NOVEMBER EDITION · 2026',
-      searchLabel:'Search the magazine', searchPlaceholder:'Find a story, a topic, an idea…', search:'Search', clear:'Clear filters', categories:'Filter by category',
-      featured:'The featured story', more:'More stories, fresh perspectives', read:'Read article', minute:'min read', save:'Save', savedState:'Saved', remove:'Remove from saved',
-      contents:'In this edition', contentsIntro:'A small map for your next read.', viewIndex:'See the full index', allStories:'All stories',
-      exploreIntro:'Follow your curiosity. There is a story for every moment.', savedIntro:'A home for the stories you want to return to.',
-      results:'stories', result:'story', resultFor:'for', noResults:'We have not found that story yet.', noResultsText:'Try another word or change the category. Your search is still here.',
+      heroTitle:'A pause to<br><em>understand the world.</em>', heroIntro:'Stories about culture, science and everyday life.', edition:'NOVEMBER EDITION · 2026',
+      searchLabel:'Search the magazine', searchPlaceholder:'Search articles…', search:'Search', clear:'Clear filters', categories:'Filter by category',
+      more:'More stories', read:'Read article', minute:'min read', save:'Save', savedState:'Saved', remove:'Remove from saved',
+      contents:'In this edition', viewIndex:'See the full index', allStories:'All stories',
+      savedIntro:'A home for the stories you want to return to.',
+      results:'stories', result:'story', resultFor:'for', noResults:'No results', noResultsText:'Try another word or change the category.',
       emptySaved:'Good stories deserve a second reading.', emptySavedText:'Choose Save on any article. You will find it here whenever you want to return.', discover:'Discover stories',
       savedToast:'Article saved for later.', removedToast:'Article removed from saved.', undo:'Undo', restored:'Article restored.',
       theme:'Colour theme', light:'Light', dark:'Dark', sepia:'Sepia', font:'Text size', small:'Small', medium:'Medium', large:'Large', reset:'Reset preferences',
@@ -108,10 +108,17 @@
   function tag(a) { return `<button class="story-category" type="button" data-category-link="${a.category}">${t(a.category)}</button>`; }
   function metadata(a) { return `<span>${e(a.author)}</span><span class="meta-dot" aria-hidden="true">·</span><span>${C.readingMinutes(C.bodyText(a))} ${t('minute')}</span>`; }
   function card(a, featured = false) {
-    let excerpt=a.excerpt;
-    if(query&&!C.normalize(excerpt).includes(C.normalize(query))){
-      const body=C.bodyText(a),at=C.normalize(body).indexOf(C.normalize(query));
-      if(at>=0){const start=Math.max(0,at-55),end=Math.min(body.length,at+query.length+100);excerpt=(start?'…':'')+body.slice(start,end)+(end<body.length?'…':'');}
+    let excerpt = a.excerpt;
+    const normalizedQuery = C.normalize(query);
+    if (normalizedQuery && !C.normalize(excerpt).includes(normalizedQuery)) {
+      const body = C.bodyText(a);
+      const match = C.normalize(body).indexOf(normalizedQuery);
+      if (match >= 0) {
+        const start = body.lastIndexOf(' ', Math.max(0, match - 55)) + 1;
+        const nextSpace = body.indexOf(' ', match + query.length + 100);
+        const end = nextSpace === -1 ? body.length : nextSpace;
+        excerpt = `${start > 0 ? '…' : ''}${body.slice(start, end)}${end < body.length ? '…' : ''}`;
+      }
     }
     return `<article class="${featured?'hero-story':'story-card'}" data-story="${a.id}">
       <div class="story-image-wrap"><a class="story-image-link" href="${href(a.id)}" aria-label="${e(a.title)}"><img src="../images/${a.image}" alt="${e(a.alt[state.language])}" width="900" height="600" ${featured?'fetchpriority="high"':'loading="lazy"'}></a>${saveButton(a,true)}</div>
@@ -119,7 +126,15 @@
     </article>`;
   }
   function contents() {
-    return `<aside class="edition-index" aria-labelledby="edition-title"><p class="eyebrow">PAUSA · 01</p><h2 id="edition-title">${t('contents')}</h2><p class="muted index-intro">${t('contentsIntro')}</p><ol>${articles().map(a=>`<li><a href="${href(a.id)}"><span>${e(a.title)}</span><span class="index-meta">${t(a.category)} · ${C.readingMinutes(C.bodyText(a))} min</span></a></li>`).join('')}</ol><a class="text-link" href="#/indice">${t('viewIndex')}</a><div class="editor-note"><span class="quote-mark" aria-hidden="true">“</span><p>${state.language==='es'?'No se trata de leer más.<br>Se trata de encontrar<br>algo que te acompañe.':'It is not about reading more.<br>It is about finding something<br>that stays with you.'}</p><span class="eyebrow">${state.language==='es'?'EL EQUIPO DE PAUSA':'THE PAUSA TEAM'}</span></div></aside>`;
+    const links = articles().map(a => `<li><a href="${href(a.id)}">
+      <span>${e(a.title)}</span>
+      <span class="index-meta">${t(a.category)} · ${C.readingMinutes(C.bodyText(a))} min</span>
+    </a></li>`).join('');
+    return `<aside class="edition-index" aria-labelledby="edition-title">
+      <h2 id="edition-title">${t('contents')}</h2>
+      <ol>${links}</ol>
+      <a class="text-link" href="#/indice">${t('viewIndex')}</a>
+    </aside>`;
   }
   function searchControls() {
     return `<form id="search-form" class="search-form" role="search"><label class="sr-only" for="search-input">${t('searchLabel')}</label><div class="search-input-wrap">${icon('search')}<input id="search-input" type="search" maxlength="120" placeholder="${t('searchPlaceholder')}" value="${e(query)}" autocomplete="off"><span class="search-shortcut" aria-hidden="true">/</span></div><button class="primary-button" type="submit">${t('search')}</button></form><div class="filter-row" role="group" aria-label="${t('categories')}">${categories.map(c=>`<button type="button" class="filter-button" data-category="${c}" aria-pressed="${c===category}">${t(c)}</button>`).join('')}</div>`;
@@ -127,7 +142,19 @@
   function catalog() {
     const home = route === 'inicio', saved = route === 'guardados';
     const title = home ? t('heroTitle') : saved ? t('saved') : t('allStories');
-    $('#app').innerHTML = `<div class="page-shell"><section class="welcome ${home?'':'welcome-small'}" aria-labelledby="page-title"><div><p class="eyebrow">${home?t('eyebrow'):'PAUSA · '+t(saved?'readingNow':'explore').toUpperCase()}</p><h1 id="page-title">${title}</h1><p class="welcome-intro">${t(home?'heroIntro':saved?'savedIntro':'exploreIntro')}</p></div>${home?`<span class="edition-label">${t('edition')}</span>`:''}</section><div class="catalog-layout"><section class="catalog-main" aria-label="${t('searchLabel')}">${searchControls()}<div id="catalog-results"></div></section>${contents()}</div></div>`;
+    const intro = home ? t('heroIntro') : saved ? t('savedIntro') : '';
+    $('#app').innerHTML = `<div class="page-shell">
+      <section class="welcome ${home ? '' : 'welcome-small'}" aria-labelledby="page-title">
+        <div><h1 id="page-title">${title}</h1>${intro ? `<p class="welcome-intro">${intro}</p>` : ''}</div>${home ? `
+        <span class="edition-label">${t('edition')}</span>` : ''}
+      </section>
+      <div class="catalog-layout">
+        <section class="catalog-main" aria-label="${t('searchLabel')}">
+          ${searchControls()}<div id="catalog-results"></div>
+        </section>
+        ${contents()}
+      </div>
+    </div>`;
     renderResults();
   }
   function renderResults() {
@@ -140,7 +167,8 @@
       const empty = route === 'guardados' && !base.length;
       html += `<div class="empty-state">${icon(empty?'bookmark':'search')}<h2>${t(empty?'emptySaved':'noResults')}</h2><p>${t(empty?'emptySavedText':'noResultsText')}</p>${empty?`<a class="primary-button" href="#/explorar">${t('discover')}</a>`:`<button class="primary-button" type="button" data-action="clear">${t('clear')}</button>`}</div>`;
     } else if (isHome) {
-      html += card(visible[0],true) + `<div class="section-heading"><h2>${t('more')}</h2><span>${String(visible.length-1).padStart(2,'0')} ${t('results')}</span></div><div class="story-grid">${visible.slice(1).map(a=>card(a)).join('')}</div>`;
+      html += card(visible[0],true) + `<h2 class="section-heading">${t('more')}</h2>
+        <div class="story-grid">${visible.slice(1).map(a=>card(a)).join('')}</div>`;
     } else html += `<div class="story-grid result-grid">${visible.map(a=>card(a)).join('')}</div>`;
     $('#catalog-results').innerHTML = html;
     document.querySelectorAll('[data-category]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.category===category)));

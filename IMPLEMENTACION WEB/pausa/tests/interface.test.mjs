@@ -108,9 +108,13 @@ test('reading time recalculates when the body changes; controls and comments are
   assert.equal(c.d.querySelector('[data-reading-time]').textContent,'3 min de lectura');
   assert.match(c.d.querySelector('[data-word-count]').textContent,/401 palabras/);
 });
-test('body-only search displays a matching excerpt, not an unhighlighted card',t=>{
+test('body-only search highlights the match in an excerpt with complete words',t=>{
   const c=open();t.after(c.close);input(c,'#search-input','marquesina');
-  assert.equal(c.d.querySelectorAll('[data-story]').length,1);assert.equal(c.d.querySelector('.story-copy p mark').textContent.toLowerCase(),'marquesina');
+  assert.equal(c.d.querySelectorAll('[data-story]').length,1);
+  const excerpt=c.d.querySelector('.story-copy p');
+  assert.equal(excerpt.querySelector('mark').textContent.toLowerCase(),'marquesina');
+  assert.match(excerpt.textContent,/^…puede guardar/);
+  assert.match(excerpt.textContent,/sus nombres,…$/);
 });
 test('progress is complete at the end of body before comments',t=>{
   const c=open({hash:'#/articulo/ciudad'});t.after(c.close);
