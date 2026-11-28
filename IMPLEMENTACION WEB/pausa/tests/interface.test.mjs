@@ -72,6 +72,33 @@ test('query remains visible on no results, can be cleared and survives a deep li
   assert.equal(c.d.querySelector('#search-input').value,'inexistente');assert(c.d.querySelector('.empty-state'));
   c.d.querySelector('[data-action="clear"]').click();assert.equal(c.d.querySelectorAll('[data-story]').length,6);
 });
+test('article return link keeps the catalog query and filter after a reload',async t=>{
+  const catalogHash='#/explorar?q=ciudad&tag=sociedad';
+  const c=open({hash:catalogHash});t.after(c.close);
+  const articleHash=c.d.querySelector('.result-grid h2 a').getAttribute('href');
+  const article=open({hash:articleHash});t.after(article.close);
+  const back=article.d.querySelector('.back-link').getAttribute('href');
+  assert.equal(back,catalogHash);
+  await navigate(article,back);
+  assert.equal(article.d.querySelector('#search-input').value,'ciudad');
+  assert.equal(article.d.querySelector('[data-category="sociedad"]').getAttribute('aria-pressed'),'true');
+});
+test('a direct article link falls back to Explore',t=>{
+  const c=open({hash:'#/articulo/ciudad?from=https%3A%2F%2Fexample.org'});t.after(c.close);
+  assert.equal(c.d.querySelector('.back-link').getAttribute('href'),'#/explorar');
+});
+test('search highlights author matches and can be cleared while results are visible',t=>{
+  const c=open({hash:'#/explorar?q=Ana+Ruiz&tag=sociedad'});t.after(c.close);
+  assert.equal(c.d.querySelector('.result-grid .story-meta mark').textContent,'Ana Ruiz');
+  const clear=c.d.querySelector('[data-action="clear"]');
+  assert.equal(clear.hidden,false);
+  clear.click();
+  assert.equal(c.d.querySelector('#search-input').value,'');
+  assert.equal(c.d.querySelector('[data-category="all"]').getAttribute('aria-pressed'),'true');
+  assert.equal(c.d.activeElement,c.d.querySelector('#search-input'));
+  assert.equal(c.d.querySelectorAll('[data-story]').length,6);
+  assert.equal(clear.hidden,true);
+});
 test('search handles accented text and HTML-like input without creating elements',t=>{
   const c=open();t.after(c.close);input(c,'#search-input','cafe');assert.equal(c.d.querySelectorAll('[data-story]').length,1);
   input(c,'#search-input','<img src=x onerror=alert(1)>');assert.equal(c.d.querySelectorAll('[onerror]').length,0);assert(c.d.querySelector('.empty-state'));
@@ -128,7 +155,14 @@ test('skip link and section anchors preserve article routing and keyboard focus'
 });
 test('mobile menu and reading dialog expose accurate open state; reset restores defaults',t=>{
   const c=open();t.after(c.close);c.d.querySelector('[data-action="menu"]').click();assert.equal(c.d.querySelector('#mobile-menu').hidden,false);
+  assert.equal(c.d.querySelector('#mobile-menu [aria-current="page"]').dataset.route,'inicio');
   c.d.dispatchEvent(new c.w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));assert.equal(c.d.querySelector('#mobile-menu').hidden,true);
+  const reading=c.d.querySelector('[data-action="reading"]');
+  assert.equal(reading.getAttribute('aria-label'),'Lectura');
+  const language=c.d.querySelector('#language');
+  language.value='en';
+  language.dispatchEvent(new c.w.Event('change',{bubbles:true}));
+  assert.equal(reading.getAttribute('aria-label'),'Reading');
   c.d.querySelector('[data-action="reading"]').click();assert(c.d.querySelector('#reading-dialog').open);
   c.d.querySelector('#dialog-options [data-value="dark"]').click();assert.equal(c.d.documentElement.dataset.theme,'dark');
   c.d.querySelector('#dialog-options [data-action="reset"]').click();assert.equal(c.d.documentElement.dataset.theme,'light');

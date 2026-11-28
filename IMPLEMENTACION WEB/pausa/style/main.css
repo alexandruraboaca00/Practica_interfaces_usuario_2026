@@ -59,6 +59,7 @@ main:focus {outline:none;}
 .menu-toggle {display:none;}
 .mobile-menu {padding:10px 24px 22px;border-top:1px solid var(--line);}
 .mobile-menu a {display:block;padding:12px;font-size:1.1rem;}
+.mobile-menu a[aria-current="page"] {color:var(--accent);font-weight:700;text-decoration:underline;text-underline-offset:4px;}
 .page-shell {max-width:1380px;margin:0 auto;padding:0 48px 80px;}
 .welcome {padding:53px 0 36px;display:flex;justify-content:space-between;align-items:flex-start;gap:32px;}
 .eyebrow {font-size:.72rem;font-weight:650;letter-spacing:1.9px;text-transform:uppercase;line-height:1.7;}
@@ -66,7 +67,7 @@ main:focus {outline:none;}
 h1 {font-family:var(--serif);font-size:clamp(2.65rem,4.8vw,4.5rem);font-weight:400;letter-spacing:-2.3px;}
 .welcome h1 em {font-weight:400;}
 .welcome-intro {margin-top:20px;max-width:620px;color:var(--muted);font-size:1.06rem;line-height:1.65;}
-.edition-label {padding-top:6px;color:var(--muted);font-size:.7rem;letter-spacing:1.5px;text-align:right;}
+.edition-label {padding-top:6px;color:var(--muted);font-size:.75rem;letter-spacing:1.5px;text-align:right;}
 .welcome-small {display:block;padding-bottom:38px;}
 .welcome-small h1 {max-width:900px;font-size:3.6rem;}
 .catalog-layout {display:grid;grid-template-columns:minmax(0,1fr) 272px;gap:43px;align-items:start;}
@@ -176,7 +177,6 @@ mark {background:var(--mark);color:var(--ink);border-radius:2px;padding:0 1px;}
 .article-body section:first-child p:first-of-type::first-letter {float:left;font-size:3.9em;line-height:.85;padding:8px 10px 0 0;color:var(--accent);}
 .reading-sidebar {position:sticky;top:126px;align-self:start;}
 .reader-tools {border:1px solid var(--line);padding:24px;border-radius:5px;}
-.reader-tools>.eyebrow {font-size:.65rem;color:var(--tag);}
 .reader-tools h2 {font-family:var(--serif);font-size:1.6rem;font-weight:400;margin:8px 0 22px;}
 .preference-group {margin-bottom:22px;}
 .preference-group h3 {font-family:var(--sans);font-size:.8rem;font-weight:600;margin-bottom:10px;line-height:1.4;}
@@ -260,9 +260,9 @@ mark {background:var(--mark);color:var(--ink);border-radius:2px;padding:0 1px;}
 }
 @media (max-width:950px) {
   .desktop-nav {display:none;}.header-actions {margin-left:auto;}.menu-toggle {display:inline-flex;}.header-inner {min-height:85px;}.brand {font-size:2.5rem;}.brand-logo {width:55px;height:55px;}
-  .welcome {padding-top:38px;}.welcome h1 {font-size:3.5rem;}.edition-label {font-size:.65rem;max-width:130px;}.catalog-layout {grid-template-columns:minmax(0,1fr);}.edition-index {border-left:0;border-top:1px solid var(--line);padding:30px 0 0;margin-top:24px;}.edition-index ol {display:grid;grid-template-columns:1fr 1fr;column-gap:30px;}
+  .welcome {padding-top:38px;}.welcome h1 {font-size:3.5rem;}.edition-label {max-width:130px;}.catalog-layout {grid-template-columns:minmax(0,1fr);}.edition-index {border-left:0;border-top:1px solid var(--line);padding:30px 0 0;margin-top:24px;}.edition-index ol {display:grid;grid-template-columns:1fr 1fr;column-gap:30px;}
   .hero-story {grid-template-columns:1.3fr 1fr;}.hero-story h2 {font-size:2.4rem;}.story-grid {grid-template-columns:repeat(3,minmax(0,1fr));}.result-grid {grid-template-columns:repeat(2,minmax(0,1fr));}.story-copy h2 {font-size:1.4rem;}
-  .article-layout {display:flex;flex-direction:column;gap:30px;}.reading-column {width:100%;max-width:740px;margin:auto;}.reading-sidebar {position:static;order:-1;width:100%;}.reader-tools {padding:20px;}.reader-tools>h2,.reader-tools>.eyebrow,.article-toc {display:none;}
+  .article-layout {display:flex;flex-direction:column;gap:30px;}.reading-column {width:100%;max-width:740px;margin:auto;}.reading-sidebar {position:static;order:-1;width:100%;}.reader-tools {padding:20px;}.reader-tools>h2,.article-toc {display:none;}
   #sidebar-options {display:flex;gap:30px;align-items:center;flex-wrap:wrap;}.reader-tools .preference-group {margin:0;flex:1;}.reader-tools .text-button {flex-basis:100%;}.article-image img {height:400px;}.article-heading {margin-top:30px;}.article-heading h1 {font-size:3.6rem;}.footer-top {gap:25px;}
 }
 @media (max-width:650px) {

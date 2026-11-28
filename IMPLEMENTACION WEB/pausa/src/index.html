@@ -28,13 +28,17 @@
         <a href="#/guardados" data-route="guardados"><span data-i18n="saved">Guardados</span><span class="saved-count" data-saved-count hidden>0</span></a>
       </nav>
       <div class="header-actions">
-        <button class="reading-trigger" type="button" data-action="reading" aria-haspopup="dialog"><span class="reading-symbol" aria-hidden="true">Aa</span><span class="reading-label" data-i18n="reading">Lectura</span></button>
+        <button class="reading-trigger" type="button" data-action="reading" aria-label="Lectura" aria-haspopup="dialog"><span class="reading-symbol" aria-hidden="true">Aa</span><span class="reading-label" data-i18n="reading">Lectura</span></button>
         <label class="language-control"><span class="sr-only" data-i18n="language">Idioma</span><select id="language" aria-label="Idioma"><option value="es" lang="es">ES</option><option value="en" lang="en">EN</option></select></label>
         <button class="menu-toggle icon-button" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú" data-action="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
       </div>
     </div>
     <nav id="mobile-menu" class="mobile-menu" aria-label="Navegación móvil" hidden>
-      <a href="#/inicio" data-i18n="home">Inicio</a><a href="#/explorar" data-i18n="explore">Explorar</a><a href="#/indice" data-i18n="index">Índice</a><a href="#/guardados" data-i18n="saved">Guardados</a><a href="#/ayuda" data-i18n="help">Ayuda</a>
+      <a href="#/inicio" data-route="inicio" data-i18n="home">Inicio</a>
+      <a href="#/explorar" data-route="explorar" data-i18n="explore">Explorar</a>
+      <a href="#/indice" data-route="indice" data-i18n="index">Índice</a>
+      <a href="#/guardados" data-route="guardados" data-i18n="saved">Guardados</a>
+      <a href="#/ayuda" data-route="ayuda" data-i18n="help">Ayuda</a>
     </nav>
   </header>
   <div id="storage-warning" class="storage-warning" role="status" hidden></div>
