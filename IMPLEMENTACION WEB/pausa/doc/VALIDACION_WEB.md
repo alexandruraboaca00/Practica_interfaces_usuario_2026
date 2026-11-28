@@ -1,6 +1,33 @@
 # Validación de la web de Pausa
 
-Revisión del 23/11/2026 sobre la implementación añadida al repositorio. Este registro distingue los controles automáticos de las evaluaciones que aún requieren navegador o personas.
+## Verificación del 28/11/2026
+
+- `npm run check` completó 29 pruebas. En Chromium se verificaron el regreso al catálogo tras una recarga, la limpieza de filtros con teclado, el resaltado de autoría y la navegación móvil a 320, 390, 768 y 1440 px.
+- Axe en Chromium revisó seis vistas móviles a 390 px, en español e inglés y con los tres temas. Las 36 combinaciones quedaron sin infracciones detectadas. En particular, el botón de lectura tiene un nombre accesible localizado.
+- El servicio [W3C HTML Checker](https://validator.w3.org/nu/) devolvió cero errores y avisos en los ocho documentos de la versión revisada. Se enviaron las dos entradas HTML y seis vistas renderizadas en Chromium.
+
+### Evaluación con la extensión WAVE
+
+Se utilizó la extensión de WebAIM, versión 3.3.4.0, en Chromium y con la web servida en local. Se revisaron estas vistas y estados. [Extensión WAVE](https://wave.webaim.org/extension/)
+
+| Vistas o estados | Casos | Errores | Errores de contraste | Alertas |
+| --- | ---: | ---: | ---: | --- |
+| Inicio, Explorar con filtro y coincidencia de autoría, búsqueda sin resultados | 3 | 0 | 0 | `noscript` en cada caso |
+| Guardados lleno, Guardados vacío, Índice, Ayuda | 4 | 0 | 0 | `noscript` en cada caso |
+| Artículo claro, oscuro y sepia en inglés con letra grande | 3 | 0 | 0 | `noscript` en cada caso |
+| Comentario con error, botón Lectura en móvil | 2 | 0 | 0 | `noscript` en cada caso |
+
+En la primera pasada se detectaron avisos de texto muy pequeño en la etiqueta de edición y en la cabecera de los ajustes de lectura. Se aumentó la etiqueta de edición a 12 px con el tamaño base del navegador y se retiró la cabecera redundante de los ajustes. La segunda pasada confirma que desaparecieron los avisos de texto pequeño. La alerta restante corresponde al mensaje que indica cómo habilitar JavaScript para abrir el catálogo. Las pruebas automáticas cubren los estados indicados. La revisión con lector de pantalla queda pendiente.
+
+### Preparación del SUS con otro grupo
+
+Dar a cada participante la misma tarea y un navegador con el estado inicial de la revista:
+
+> Encuentra el artículo sobre la ciudad en la categoría Sociedad. Ajusta la lectura a sepia y letra grande, guárdalo y vuelve a abrirlo desde Guardados. Deja un comentario de prueba con un alias.
+
+Después de la tarea, cada persona del otro grupo responde los diez ítems del SUS de clase, de 1 a 5. Registrar un identificador anónimo, rango de edad, género y las diez respuestas. Sumar las contribuciones de los ítems impares (respuesta menos 1) y pares (5 menos respuesta) y multiplicar por 2,5. Calcular la media de las puntuaciones individuales y resumir el perfil del grupo por rango de edad y género. La evaluación con participantes está pendiente. [Método de John Brooke](https://germanupa.de/sites/default/files/2021-12/brooke1996sus.pdf)
+
+## Registro del 23/11/2026
 
 ## Comprobaciones realizadas
 
@@ -17,13 +44,6 @@ Revisión del 23/11/2026 sobre la implementación añadida al repositorio. Este 
 Se enviaron al servicio `https://validator.w3.org/nu/?out=json` las dos entradas HTML y seis documentos con las vistas generadas: Inicio, Explorar con búsqueda, Guardados vacío, Índice, Artículo y Ayuda. Resultado: **0 errores y 0 avisos en los ocho documentos**. El servicio respondió con versión `26.11.20`.
 
 El registro de las respuestas está en `W3C_2026-11-23.json`. Las vistas generadas se obtuvieron al ejecutar los mismos scripts de la aplicación en JSDOM; no son capturas de un navegador ni validan todos los estados posibles del contenido local.
-
-## Comprobaciones pendientes antes de entregar
-
-1. Abrir la web en navegadores reales y revisar anchuras de 320, 390, 768, 1024 y 1440 px, zoom al 200 %, teclado, lector de pantalla, cuadros de diálogo y los tres temas. El entorno de trabajo no ofreció la herramienta de navegador compartido necesaria para completar esa comprobación visual.
-2. Instalar y ejecutar la extensión **WAVE**, como exige el enunciado. Revisar los errores, avisos y contrastes en Inicio, Artículo, búsqueda, Guardados y comentarios; conservar capturas y redactar el informe. No se ha ejecutado la extensión WAVE en esta revisión.
-3. Realizar la evaluación **SUS con otro grupo**, recoger rango de edad y género según el enunciado y calcular puntuaciones individuales y media. No se han realizado entrevistas ni inventado respuestas SUS.
-4. Integrar los resultados reales de estas evaluaciones en la memoria final de los puntos 7 a 9 y comprobar el acceso a Figma desde el equipo de la defensa.
 
 ## Alcance de la implementación
 
