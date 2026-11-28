@@ -163,8 +163,13 @@
     const index = state.saved.indexOf(id);
     if (index<0) { state.saved.push(id); undo=null; showToast(t('savedToast')); }
     else { state.saved.splice(index,1);undo={id,index};showToast(t('removedToast'),true); }
-    persist(); updateSaveButtons();
-    if (route==='guardados') {renderResults();$('#page-title').setAttribute('tabindex','-1');$('#page-title').focus({preventScroll:true});}
+    persist();
+    if (route === 'guardados') {
+      renderResults();
+      $('#toast [data-action="undo"]')?.focus({preventScroll:true});
+    } else {
+      updateSaveButtons();
+    }
   }
   function articleView(id) {
     const raw = DATA.find(a=>a.id===id);
@@ -264,8 +269,33 @@
     const button=event.target.closest('[data-action]');if(!button)return;
     switch(button.dataset.action){
       case 'save':save(button.dataset.id);break;
-      case 'undo':if(undo){state.saved=state.saved.filter(id=>id!==undo.id);state.saved.splice(undo.index,0,undo.id);undo=null;persist();updateSaveButtons();if(route==='guardados')renderResults();showToast(t('restored'));}break;
-      case 'close-toast':$('#toast').hidden=true;break;
+      case 'undo': {
+        if (!undo) break;
+        const {id, index} = undo;
+        state.saved = state.saved.filter(savedId => savedId !== id);
+        state.saved.splice(index, 0, id);
+        undo = null;
+        persist();
+        if (route === 'guardados') {
+          renderResults();
+          const restoredButton = $(`#catalog-results [data-action="save"][data-id="${id}"]`);
+          const focusTarget = restoredButton ?? $('#search-input');
+          // Leave room for the fixed confirmation on short screens.
+          focusTarget.scrollIntoView({block:'center'});
+          focusTarget.focus({preventScroll:true});
+        } else {
+          updateSaveButtons();
+        }
+        showToast(t('restored'));
+        break;
+      }
+      case 'close-toast': {
+        const toast = $('#toast');
+        const returnFocus = route === 'guardados' && toast.contains(document.activeElement);
+        toast.hidden = true;
+        if (returnFocus) $('#search-input').focus();
+        break;
+      }
       case 'clear':query='';category='all';$('#search-input').value='';syncFilters();$('#search-input').focus();break;
       case 'reading':lastDialogTrigger=button;$('#reading-dialog').showModal();break;
       case 'close-reading':$('#reading-dialog').close();break;

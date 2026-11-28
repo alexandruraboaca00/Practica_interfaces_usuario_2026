@@ -23,6 +23,50 @@ test('Laura: query, category, article, save, revisit, reload, remove and undo',a
   c.d.querySelector('[data-action="save"]').click();assert(c.d.querySelector('.empty-state'));
   c.d.querySelector('[data-action="undo"]').click();assert.equal(c.d.querySelectorAll('[data-story]').length,1);
 });
+test('saved stories focus Undo on removal and return focus to the restored story',t=>{
+  const saved = ['lluvia','ciudad','museo'];
+  const c = open({hash:'#/guardados',savedState:{saved}});
+  t.after(c.close);
+  const saveSelector = '[data-action="save"][data-id="ciudad"]';
+  const remove = c.d.querySelector(saveSelector);
+  remove.focus();
+  remove.click();
+  const undo = c.d.querySelector('[data-action="undo"]');
+  assert.equal(c.d.activeElement,undo);
+  assert.equal(c.d.querySelector(saveSelector),null);
+
+  undo.click();
+  const restored = c.d.querySelector(saveSelector);
+  assert.equal(c.d.activeElement,restored);
+  assert.equal(restored.getAttribute('aria-pressed'),'true');
+  assert.deepEqual([...c.d.querySelectorAll('[data-story]')].map(card=>card.dataset.story),saved);
+  assert.deepEqual(JSON.parse(c.w.localStorage.getItem('pausa:v1')).saved,saved);
+});
+test('undo returns focus to search when a filter hides the restored story',t=>{
+  const c = open({hash:'#/guardados',savedState:{saved:['ciudad','museo']}});
+  t.after(c.close);
+  c.d.querySelector('[data-action="save"][data-id="ciudad"]').click();
+  c.d.querySelector('[data-category="cultura"]').click();
+  c.d.querySelector('[data-action="undo"]').click();
+
+  assert.equal(c.d.activeElement,c.d.querySelector('#search-input'));
+  assert.equal(c.d.querySelector('[data-category="cultura"]').getAttribute('aria-pressed'),'true');
+  assert.equal(c.d.querySelector('[data-story="ciudad"]'),null);
+  c.d.querySelector('[data-category="all"]').click();
+  assert(c.d.querySelector('[data-story="ciudad"]'));
+});
+test('dismissing Undo returns focus to search without restoring the story',t=>{
+  const c = open({hash:'#/guardados',savedState:{saved:['ciudad']}});
+  t.after(c.close);
+  c.d.querySelector('[data-action="save"]').click();
+  const close = c.d.querySelector('#toast [data-action="close-toast"]');
+  close.focus();
+  close.click();
+
+  assert.equal(c.d.activeElement,c.d.querySelector('#search-input'));
+  assert(c.d.querySelector('#toast').hidden);
+  assert.equal(c.d.querySelector('[data-story]'),null);
+});
 test('query remains visible on no results, can be cleared and survives a deep link',t=>{
   const c=open({hash:'#/explorar?q=inexistente&tag=ciencia'});t.after(c.close);
   assert.equal(c.d.querySelector('#search-input').value,'inexistente');assert(c.d.querySelector('.empty-state'));
